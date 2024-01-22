@@ -23,16 +23,18 @@
 }
 
 .title__salutation {
-  font-size: 2.4rem;
+  font-size: clamp(1.6rem, 1.5vw, 2.4rem);
 }
 
 .title__name {
   font-size: 6.4rem;
+  font-size: clamp(3.2rem, 4.5vw, 6.4rem);
   color: var(--text-strong);
 }
 
 .title__stack {
   font-size: 3.2rem;
+  font-size: clamp(2.4rem, 2.5vw, 3.2rem);
 }
 
 .introduction__description--socialMedia {
@@ -111,5 +113,21 @@
 
   100% {
     background-position: 300%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .introduction {
+    flex-direction: column-reverse;
+    row-gap: 5rem;
+  }
+
+  .introduction__photo {
+    width: 17.5rem;
+    height: 17.5rem;
+  }
+
+  .introduction__photo img {
+    width: 100%;
   }
 }

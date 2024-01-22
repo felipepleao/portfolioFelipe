@@ -58,6 +58,7 @@
 
 .icon3.change {
   transform: translate(0, -6px) rotate(45deg);
+  width: 30px;
 }
 
 .header__navbar-list {

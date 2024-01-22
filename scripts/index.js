@@ -8,7 +8,6 @@ function transformIcon() {
     icon.classList.toggle("change");
   });
 
-  icon3.style.width = "30px";
   navbarList.classList.toggle("active")
 }
 
