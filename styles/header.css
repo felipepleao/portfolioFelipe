@@ -7,13 +7,13 @@
 }
 
 .header,
-.header__logo a,
+.header__logo,
 .header__navbar-list {
   display: flex;
   align-items: center;
 }
 
-.header__logo a {
+.header__logo {
   text-transform: uppercase;
   color: var(--text-description);
   letter-spacing: 1rem;
@@ -74,7 +74,7 @@
   margin-right: .2rem;
 }
 
-.header__logo a,
+.header__logo,
 .header__navbar-list li a {
   color: var(--text-simple);
   font-size: 1.8rem;

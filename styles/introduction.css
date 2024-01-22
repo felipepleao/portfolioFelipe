@@ -1,0 +1,87 @@
+.introduction.container {
+  margin-top: 6.2rem;
+  background-color: var(--background-primary);
+  justify-content: space-between;
+}
+
+.introduction,
+.introduction__description--socialMedia,
+.introduction__description--socialMedia div {
+  display: flex;
+  align-items: center;
+}
+
+.introduction__description--title {
+  display: grid;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title__salutation,
+.title__stack {
+  color: var(--text-simple);
+}
+
+.title__salutation {
+  font-size: 2.4rem;
+}
+
+.title__name {
+  font-size: 6.4rem;
+  color: var(--text-strong);
+}
+
+.title__stack {
+  font-size: 3.2rem;
+}
+
+.introduction__description--socialMedia {
+  margin-top: 4.7rem;
+  column-gap: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.introduction__description--socialMedia-linkedin,
+.introduction__description--socialMedia-github {
+  padding: 2px;
+  border-radius: 3px;
+  max-width: 16rem;
+  width: 100%;
+  column-gap: 2rem;
+}
+
+.introduction__description--socialMedia-linkedin {
+  background-image: linear-gradient(90deg, #9358F7 0%, #10D7E2 100%);
+}
+
+.introduction__description--socialMedia-github {
+  background-image: linear-gradient(90deg, #D24074 0%, #6518B4 100%);
+}
+
+.introduction__description--socialMedia-linkedin div,
+.introduction__description--socialMedia-github div {
+  background-color: var(--background-primary);
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  column-gap: 2rem;
+  cursor: pointer;
+}
+
+.introduction__description--socialMedia a {
+  color: var(--text-simple);
+}
+
+.introduction__photo div {
+  background-image: linear-gradient(90deg, #9358F7 0%, #10D7E2 100%);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.introduction__photo div img {
+  background-color: var(--background-primary);
+  width: 100%;
+
+  object-fit: contain;
+}

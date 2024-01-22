@@ -17,12 +17,10 @@
   <body>
     <header id="header">
       <div class="container header">
-        <h1 class="header__logo">
-          <a href="">
-            <img src="assets/mango5.svg" height="50" alt="" />
-            <span>elipe</span>
-          </a>
-        </h1>
+        <a href="" class="header__logo">
+          <img src="assets/mango5.svg" height="50" alt="" />
+          <span>elipe</span>
+        </a>
 
         <nav class="header__navbar">
           <button data-menu>
@@ -52,7 +50,44 @@
     </header>
 
     <main>
-      <section class="introduction"></section>
+      <section class="container introduction">
+        <div class="introduction__description">
+          <h1 class="introduction__description--title">
+            <span class="title__salutation">Olá, eu sou</span> <br />
+            <strong class="title__name">Felipe Leão</strong><br />
+            <span class="title__stack">Desenvolvedor Front-End</span>
+          </h1>
+
+          <div class="introduction__description--socialMedia">
+            <div class="introduction__description--socialMedia-linkedin">
+              <div>
+                <img src="assets/linkedin.svg" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/felipepleao/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </div>
+            </div>
+
+            <div class="introduction__description--socialMedia-github">
+              <div>
+                <img src="assets/github.svg" alt="" />
+                <a href="https://github.com/felipepleao" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="introduction__photo">
+          <div>
+            <img src="assets/imageProfile.png" alt="" />
+          </div>
+        </div>
+      </section>
+
       <section class="projects"></section>
       <section class="skills"></section>
       <section class="aboutMe"></section>
