@@ -1,14 +1,61 @@
 .header {
   background-color: var(--background-primary);
+  padding: 4rem 0;
+  height: 10.8rem;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--background-secondary);
 }
 
-.header__logo a img {
-  width: 200px;
-  height: 200px;
-  /* background-color: yellow; */
-  display: inline-block;
+.header,
+.header__logo a,
+.header__navbar-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo a {
+  text-transform: uppercase;
+  color: var(--text-description);
+  letter-spacing: 1rem;
+}
+
+[data-menu] {
+  display: none;
 }
 
 .header__navbar-list {
-  color: var(--text-simple);
+  column-gap: 6.2rem;
+}
+
+.header__navbar-list li span {
+  color: var(--text-strong);
+  font-weight: bold;
+  margin-right: .2rem;
+}
+
+.header__logo a,
+.header__navbar-list li a {
+  color: var(--text-description);
+  font-size: 1.8rem;
+}
+
+.header__navbar-list li a:hover {
+  color: var(--text-strong);
+  transition: .4s;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    /* background-color: yellow; */
+  }
+
+  [data-menu] {
+    display: block;
+    background: none;
+    border: none;
+  }
+
+  .header__navbar-list {
+    display: none;
+  }
 }

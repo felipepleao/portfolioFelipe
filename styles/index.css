@@ -18,16 +18,17 @@
 
   --text-strong: #00D2DF;
   --text-simple: #FFFFFF;
-  --text-description: #C4C4C4;
+  --text-description: #e5f1f9;
+  /* --text-description: #C4C4C4; */
 }
 
 body {
   background: var(--background-primary);
+  padding: 0 2rem;
 }
 
 .container {
   max-width: 128rem;
   width: 100%;
-  padding: 0 2rem;
   margin: 0 auto;
 }
