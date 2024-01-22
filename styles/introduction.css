@@ -73,15 +73,43 @@
   color: var(--text-simple);
 }
 
-.introduction__photo div {
-  background-image: linear-gradient(90deg, #9358F7 0%, #10D7E2 100%);
-  padding: 4px;
-  border-radius: 4px;
+.introduction__photo {
+  position: relative;
+  width: 37.5rem;
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.introduction__photo div img {
-  background-color: var(--background-primary);
-  width: 100%;
+.introduction__photo::before,
+.introduction__photo::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  background: linear-gradient(90deg, #9358F7 0%, #10D7E2 100%);
+  border-radius: 50%;
+  background-size: 150%;
+  animation: animarBorda 2s linear alternate infinite;
+}
 
-  object-fit: contain;
+.introduction__photo::after {
+  filter: blur(15px);
+}
+
+.introduction__photo img {
+  background-color: var(--background-primary);
+  border-radius: 50%;
+  z-index: 100;
+}
+
+@keyframes animarBorda {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 300%;
+  }
 }
