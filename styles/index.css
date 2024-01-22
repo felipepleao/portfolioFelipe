@@ -1,0 +1,33 @@
+@import "header.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --background-primary: #121212;
+  --background-secondary: #151515;
+  --border-color: #00D2DF;
+
+  --text-strong: #00D2DF;
+  --text-simple: #FFFFFF;
+  --text-description: #C4C4C4;
+}
+
+body {
+  background: var(--background-primary);
+}
+
+.container {
+  max-width: 128rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
