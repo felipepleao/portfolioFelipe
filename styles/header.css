@@ -83,10 +83,6 @@
 }
 
 @media (max-width: 1120px) {
-  /* .header {
-    background-color: yellow;
-  } */
-
   [data-menu] {
     display: grid;
     z-index: 999;
