@@ -17,9 +17,9 @@
   --border-color: #00D2DF;
 
   --text-strong: #00D2DF;
-  --text-simple: #FFFFFF;
-  --text-description: #e5f1f9;
-  /* --text-description: #C4C4C4; */
+  /* --text-simple: #FFFFFF; */
+  --text-simple: #e5f1f9;
+  --text-description: #C4C4C4;
 }
 
 body {
