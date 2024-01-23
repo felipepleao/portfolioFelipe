@@ -1,5 +1,5 @@
 .introduction.container {
-  margin-top: 6.2rem;
+  padding: 6.2rem 2rem;
   background-color: var(--background-primary);
   justify-content: space-between;
 }
@@ -125,7 +125,7 @@
 
 @media (max-width: 1024px) {
   .introduction.container {
-    margin-top: 3.6rem;
+    padding: 3.6rem 0;
     flex-direction: column-reverse;
     row-gap: 5rem;
   }

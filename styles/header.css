@@ -1,6 +1,6 @@
 .header {
   background-color: var(--background-primary);
-  padding: 4rem 0;
+  padding: 4rem 0rem;
   height: 10.8rem;
   justify-content: space-between;
   border-bottom: 1px solid var(--background-secondary);

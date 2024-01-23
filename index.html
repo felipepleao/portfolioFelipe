@@ -30,19 +30,19 @@
           </button>
           <ul class="header__navbar-list">
             <li>
-              <a href=""> <span>#</span>Home </a>
+              <a href="#introduction"> <span>#</span>Home </a>
             </li>
             <li>
-              <a href=""> <span>#</span>Projetos </a>
+              <a href="#projects"> <span>#</span>Projetos </a>
             </li>
             <li>
-              <a href=""> <span>#</span>Tecnologias </a>
+              <a href="#skills"> <span>#</span>Tecnologias </a>
             </li>
             <li>
-              <a href=""> <span>#</span>Sobre mim</a>
+              <a href="#aboutme"> <span>#</span>Sobre mim</a>
             </li>
             <li>
-              <a href=""> <span>#</span>Contato</a>
+              <a href="#contact"> <span>#</span>Contato</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,7 @@
     </header>
 
     <main>
-      <section class="container introduction">
+      <section id="introduction" class=" introduction container">
         <div class="introduction__description">
           <h1 class="introduction__description--title">
             <span class="title__salutation">Olá, eu sou</span> <br />
@@ -86,12 +86,66 @@
         </div>
       </section>
 
-      <section class="projects">
-        
+      <section id="projects">
+        <div class="container projects">
+          <h2 class="title__section">Projetos</h2>
+
+          <div class="projects__grid">
+
+            <div class="projects__grid-card">
+              <div class="projects__grid-card-image">
+                <img src="assets/small.png" alt="" />
+              </div>
+
+              <h3>Nome do Projeto</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                rem recusandae fugit! Non voluptatem impedit porro
+              </p>
+
+              <span>Tecnologias usadas no projeto</span>
+
+              <div class="projects__grid-card-link">
+                <div>
+                  <img src="assets/link.svg" alt="" />
+                  <a href="" target="_blank">Visualizar</a>
+                </div>
+              </div>
+            </div>
+            <div class="projects__grid-card">
+              <div class="projects__grid-card-image">
+                <img src="assets/small.png" alt="" />
+              </div>
+
+              <h3>Nome do Projeto</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                rem recusandae fugit! Non voluptatem impedit porro
+              </p>
+
+              <span>Tecnologias usadas no projeto</span>
+
+              <div class="projects__grid-card-link">
+                <div>
+                  <img src="assets/link.svg" alt="" />
+                  <a href="" target="_blank">Visualizar</a>
+                </div>
+              </div>
+            </div>
+            
+           
+
+          </div>
+        </div>
       </section>
-      <section class="skills"></section>
-      <section class="aboutMe"></section>
-      <section class="contact"></section>
+
+      <section id="skills" class="skills container"></section>
+
+      
+      <section id="aboutme" class="aboutme container"></section>
+      <section id="contact" class="contact container"></section>
     </main>
 
     <footer></footer>
