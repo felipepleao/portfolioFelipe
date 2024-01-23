@@ -123,6 +123,12 @@
   }
 }
 
+@media (max-width: 1120px) {
+  .introduction__photo {
+    margin-top: 10rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .introduction.container {
     padding: 3.6rem 0;
