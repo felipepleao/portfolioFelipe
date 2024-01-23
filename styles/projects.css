@@ -105,3 +105,9 @@
   font-weight: 600;
   color: var(--text-simple);
 }
+
+@media (max-width:1024px) {
+  #projects {
+    padding: 4.2rem 0rem;
+  }
+}
