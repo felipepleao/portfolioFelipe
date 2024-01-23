@@ -9,14 +9,16 @@
 
 .projects__grid {
   display: grid;
-  align-items: center;
+  align-items: start;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 8rem 2rem;
- 
+  gap: 8rem 4rem;
 }
 
 .projects__grid-card {
   width: 100%;
+  display: grid;
+  grid-template-rows: auto auto 12rem auto auto;
+  gap: 3rem 0;
 }
 
 .projects__grid-card-image {
@@ -26,7 +28,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;
 }
 
 .projects__grid-card-image::before,
@@ -55,20 +56,19 @@
   font-size: 2.4rem;
   color: var(--text-simple);
   font-weight: 500;
-  margin-bottom: 3rem;
 }
 
 .projects__grid-card p {
   font-size: 1.6rem;
   color: var(--text-description);
-  margin-bottom: 2.6rem;
   font-weight: 300;
   line-height: 2.6rem;
+  text-align: justify;
+  
 }
 
 .projects__grid-card span {
-  display: inline-block;
-  margin-bottom: 3.2rem;
+  display: block;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.4rem;

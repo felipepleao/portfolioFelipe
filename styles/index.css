@@ -44,3 +44,14 @@ body {
   color: var(--text-simple);
   margin-bottom: 4rem;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: var(--background-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-strong);
+  border-radius: 50px;
+  
+}
