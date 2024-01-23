@@ -6,7 +6,7 @@
 
 .introduction,
 .introduction__description--socialMedia,
-.introduction__description--socialMedia div {
+.introduction__description--socialMedia a {
   display: flex;
   align-items: center;
 }
@@ -68,17 +68,17 @@
   transition: .3s;
 }
 
-.introduction__description--socialMedia-linkedin div,
-.introduction__description--socialMedia-github div {
+.introduction__description--socialMedia-linkedin a,
+.introduction__description--socialMedia-github a {
   background-color: var(--background-primary);
   justify-content: center;
   width: 100%;
   padding: 1rem 0;
-  column-gap: 2rem;
+  column-gap: 1rem;
   cursor: pointer;
 }
 
-.introduction__description--socialMedia a {
+.introduction__description--socialMedia span {
   color: var(--text-simple);
 }
 

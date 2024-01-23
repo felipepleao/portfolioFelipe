@@ -89,18 +89,18 @@
   transition: .3s;
 }
 
-.projects__grid-card-link div {
+.projects__grid-card-link a {
   display: flex;
   align-items: center;
   background-color: var(--background-primary);
   justify-content: center;
   width: 100%;
   padding: 1rem 0;
-  column-gap: 1.6rem;
+  column-gap: 1rem;
   cursor: pointer;
 }
 
-.projects__grid-card-link a {
+.projects__grid-card-link span {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--text-simple);
