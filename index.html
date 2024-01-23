@@ -41,9 +41,6 @@
             <li>
               <a href="#aboutme"> <span>#</span>Sobre mim</a>
             </li>
-            <li>
-              <a href="#contact"> <span>#</span>Contato</a>
-            </li>
           </ul>
         </nav>
       </div>
@@ -85,7 +82,7 @@
 
       <section id="projects">
         <div class="container projects">
-          <h2 class="title__section"># Projetos</h2>
+          <h2 class="title__section"><span class="hash-strong">#</span> Projetos</h2>
 
           <div class="projects__grid">
             <div class="projects__grid-card">
@@ -139,33 +136,41 @@
       </section>
 
       <section id="skills" class="skills container">
-        <div class="skills__image">
-          <h2 class="title__section"># Tecnologias</h2>
-          <img src="assets/tech.svg" alt="" />
+        <div class="skills__flex">
+          <h2 class="title__section"><span class="hash-strong">#</span> Tecnologias</h2>
+          
+          <p>Tecnologias</p>
+
+          <div class="skills__tech">
+            <div class="tech-name">
+              <img src="assets/html.svg" alt="" />
+              <h3>HTML</h3>
+            </div>
+            <div class="tech-name">
+              <img src="assets/css.svg" alt="" />
+              <h3>CSS</h3>
+            </div>
+            <div class="tech-name">
+              <img src="assets/js.svg" alt="" />
+              <h3>JavaScript</h3>
+            </div>
+            <div class="tech-name">
+              <img src="assets/git.svg" alt="" />
+              <h3>Git</h3>
+            </div>
+          </div>
         </div>
-        <div class="skills__tech">
-          <div class="tech-name">
-            <img src="assets/html.svg" alt="" />
-            <h3>HTML</h3>
-          </div>
-          <div class="tech-name">
-            <img src="assets/css.svg" alt="" />
-            <h3>CSS</h3>
-          </div>
-          <div class="tech-name">
-            <img src="assets/js.svg" alt="" />
-            <h3>JavaScript</h3>
-          </div>
-          <div class="tech-name">
-            <img src="assets/git.svg" alt="" />
-            <h3>Git</h3>
-          </div>
+        <div class="skills__image">
+          <img src="assets/tech.svg" alt="" />
         </div>
       </section>
 
-      <section id="aboutme" class="aboutme container"></section>
-
-      <section id="contact" class="contact container"></section>
+      <section id="aboutme" class="aboutme container">
+        <div class="aboutme__image">
+          <img src="assets/imageProfile.png" alt="" />
+        </div>
+        <div class="aboutme__description"></div>
+      </section>
     </main>
 
     <footer></footer>

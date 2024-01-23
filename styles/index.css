@@ -38,6 +38,10 @@ body {
   margin: 0 auto;
 }
 
+.hash-strong {
+  color: var(--text-strong);
+}
+
 .title__section {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -53,5 +57,4 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--text-strong);
   border-radius: 50px;
-  
 }
