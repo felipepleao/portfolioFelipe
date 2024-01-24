@@ -79,7 +79,7 @@
   font-size: 1.6rem;
 }
 
-@media (max-width:920px) {
+@media (max-width:1124px) {
   #aboutme {
     padding: 4.2rem 2rem;
   }
