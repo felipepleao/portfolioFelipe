@@ -129,7 +129,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 920px) {
   .introduction.container {
     padding: 3.6rem 0;
     flex-direction: column-reverse;
