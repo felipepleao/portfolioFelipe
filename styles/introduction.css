@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.introduction__description {
+  animation: dropmid 1s ease-in forwards;
+}
+
 .introduction__description--title {
   display: grid;
   font-weight: 600;
@@ -30,6 +34,43 @@
   font-size: 6.4rem;
   font-size: clamp(3.2rem, 4.5vw, 6.4rem);
   color: var(--text-strong);
+
+  overflow: hidden;
+  position: relative;
+}
+
+.title__name::after {
+  animation: text-reveal 2s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+  content: "";
+  background: var(--text-strong);
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.title__name span {
+  animation: fade 1ms 1s forwards;
+  opacity: 0;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes text-reveal {
+  from {
+    transform: translateX(-101%);
+  }
+
+  to {
+    transform: translateX(101%);
+  }
 }
 
 .title__stack {
@@ -89,6 +130,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  animation: toappear 2s cubic-bezier(0.85, 0, 0.15, 1) forwards;
 }
 
 .introduction__photo::before,

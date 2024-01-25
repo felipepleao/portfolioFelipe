@@ -57,3 +57,56 @@ body {
   background-color: var(--text-strong);
   border-radius: 50px;
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all .7s linear;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@keyframes dropdown {
+  from {
+    transform: translateY(-100%);
+    filter: blur(10px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes toappear {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes dropmid {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
