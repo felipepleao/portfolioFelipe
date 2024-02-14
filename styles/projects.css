@@ -18,7 +18,7 @@
   width: 100%;
   display: grid;
   grid-template-rows: auto auto 12rem auto auto;
-  gap: 3rem 0;
+  gap: 4rem 0;
 }
 
 .projects__grid-card-image {
@@ -64,7 +64,7 @@
   font-weight: 300;
   line-height: 2.6rem;
   text-align: justify;
-
+  margin-bottom: 11rem;
 }
 
 .projects__grid-card span {
